@@ -38,3 +38,38 @@ body{
 
 }
 
+
+.btn-more-info{
+  
+  color:var(--secondary-color);
+  border-radius: 4px;
+  border:1px solid var(--secondary-color);
+  padding:15px 30px ;
+  font-size: 18px;
+
+}
+.project-content{
+  padding: 110px 20px;
+}
+
+@media(max-width:900px){
+  .project-content {
+    padding: 0px;
+    text-align: center;
+  }
+  .hero{
+    padding: 80px 20px;
+  }
+.hero h1{
+  font-size: 44px;
+}
+
+
+
+}
+
+
+
+
+
+
