@@ -15,11 +15,14 @@ body{
   text-align: center;
   padding: 160px 20px;
 }
+.about-section{
+  padding: 160px 20px;
+}
 .hero h2{
   font-size: 36px;
   color:#272142;
 }
-.hero h1{
+ h1{
  font-weight: bold;
  font-size: 96px;
 }
@@ -57,14 +60,18 @@ body{
     padding: 0px;
     text-align: center;
   }
-  .hero{
+  .hero, .about-section{
     padding: 80px 20px;
   }
-.hero h1{
+.hero h1, .about-section h1{
   font-size: 44px;
 }
-
-
+.about-section{
+  text-align: center;
+}
+.about-section img{
+  margin-top: 30px;
+}
 
 }
 
