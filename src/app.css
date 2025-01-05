@@ -10,6 +10,9 @@ h1,h2,h3,h4,h5,h6{
 body{
   font-family: var(--text-font);
 }
+nav a:hover{
+  color: var(--secondary-color);
+}
 .hero{
   background-color: var(--primary-color);
   text-align: center;
