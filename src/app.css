@@ -15,7 +15,7 @@ body{
   text-align: center;
   padding: 160px 20px;
 }
-.about-section{
+.content{
   padding: 160px 20px;
 }
 .hero h2{
@@ -60,16 +60,16 @@ body{
     padding: 0px;
     text-align: center;
   }
-  .hero, .about-section{
+  .hero, .content{
     padding: 80px 20px;
   }
-.hero h1, .about-section h1{
+.hero h1, .content h1{
   font-size: 44px;
 }
-.about-section{
+.content{
   text-align: center;
 }
-.about-section img{
+.content img{
   margin-top: 30px;
 }
 
