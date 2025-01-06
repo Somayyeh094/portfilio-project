@@ -67,8 +67,36 @@ transition:black 100ms ease-in-out;
 }
 .project-content{
   padding: 110px 20px;
-}
 
+}
+footer .contact-box{
+  background-color: var(--primary-color) ;
+  margin: 50px 20px 30px 20px;
+  padding: 40px;
+  border-radius: 10px;
+}
+footer .social-media-email a{
+  color: #272142;
+  font-size: 24px;
+}
+footer .social-media-email a:hover{
+  color: var(--secondary-color);
+}
+footer .social-media-links a{
+  color: var(--secondary-color);
+  margin-left: 25px;
+  text-decoration:none ;
+  background-color:  var(--primary-color);
+  padding: 15px 19px;
+ border-radius: 50%;
+  font-size: 24px;
+}
+footer .social-media-links a:hover{
+  color: var(--primary-color);
+
+  background-color:  var(--secondary-color);
+
+}
 @media(max-width:900px){
   nav a{
     font-size: 14px;
@@ -89,7 +117,8 @@ transition:black 100ms ease-in-out;
 .content img{
   margin-top: 30px;
 }
-
+footer .social-media-email a{
+  font-size: 18px;
 }
 
 
