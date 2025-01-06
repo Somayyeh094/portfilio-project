@@ -75,6 +75,13 @@ footer .contact-box{
   padding: 40px;
   border-radius: 10px;
 }
+footer .contact-box-btn {
+  text-align: right;
+  margin-top: 20px;
+}
+footer .contact-box-text{
+  margin-top: 20px;
+}
 footer .social-media-email a{
   color: #272142;
   font-size: 24px;
@@ -120,7 +127,13 @@ footer .social-media-links a:hover{
 footer .social-media-email a{
   font-size: 18px;
 }
-
+footer .contact-box{
+  text-align: center;
+}
+footer .contact-box-btn{
+  text-align: center;
+}
+}
 
 
 
