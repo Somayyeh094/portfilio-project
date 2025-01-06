@@ -10,6 +10,12 @@ h1,h2,h3,h4,h5,h6{
 body{
   font-family: var(--text-font);
 }
+nav a{
+  color: #272142;
+}
+nav .active{
+  color: var(--secondary-color);
+}
 nav a:hover{
   color: var(--secondary-color);
 }
@@ -41,9 +47,12 @@ nav a:hover{
   border: none;
   padding:15px 30px ;
   font-size: 18px;
-
+  
+transition:black 100ms ease-in-out;
 }
-
+.btn-contact:hover{
+  background-color: var(--secondary-color);
+}
 
 .btn-more-info{
   
@@ -52,13 +61,18 @@ nav a:hover{
   border:1px solid var(--secondary-color);
   padding:15px 30px ;
   font-size: 18px;
-
+}
+.btn-more-info:hover{
+  border:1px solid var(--secondary-color);
 }
 .project-content{
   padding: 110px 20px;
 }
 
 @media(max-width:900px){
+  nav a{
+    font-size: 14px;
+  }
   .project-content {
     padding: 0px;
     text-align: center;
