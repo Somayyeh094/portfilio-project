@@ -129,12 +129,14 @@ footer .social-media-links a:hover{
 footer .social-media a{
   font-size: 14px;
 }
-footer .social-media p{
+footer .social-media p, p a{
   font-size: 12px;
 }
-footer .social-media  p{
-  font-size: 14px;
+footer .social-media p a{
+  font-size: 12px;
 }
+
+
 footer .contact-box{
   text-align: center;
   padding-top: 20px;
