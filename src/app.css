@@ -10,10 +10,11 @@ h1,h2,h3,h4,h5,h6{
 body{
   font-family: var(--text-font);
 }
-nav a{
+nav .links a{
   color: #272142;
+  margin-left: 25px;
 }
-nav .active{
+nav .links .active{
   color: var(--secondary-color);
 }
 nav a:hover{
@@ -22,10 +23,10 @@ nav a:hover{
 .hero{
   background-color: var(--primary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 .content{
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero h2{
   font-size: 36px;
@@ -107,12 +108,13 @@ footer .social-media-links a:hover{
 @media(max-width:900px){
   nav .links a{
     font-size: 14px;
+    margin-left: 6px;
   }
   .project-content {
     padding: 0px;
     text-align: center;
   }
-  .hero, .content{
+  .hero{
     padding: 80px 20px;
   }
 .hero h1, .content h1{
@@ -124,11 +126,13 @@ footer .social-media-links a:hover{
 .content img{
   margin-top: 30px;
 }
-footer .social-media-email a{
-  font-size: 18px;
+footer .social-media a, p{
+  font-size: 14px;
 }
 footer .contact-box{
   text-align: center;
+  padding-top: 20px;
+  margin-top: 20px;
 }
 footer .contact-box-btn{
   text-align: center;
