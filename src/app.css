@@ -126,7 +126,13 @@ footer .social-media-links a:hover{
 .content img{
   margin-top: 30px;
 }
-footer .social-media a, p{
+footer .social-media a{
+  font-size: 14px;
+}
+footer .social-media p{
+  font-size: 12px;
+}
+footer .social-media  p{
   font-size: 14px;
 }
 footer .contact-box{
