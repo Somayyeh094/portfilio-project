@@ -56,9 +56,11 @@ nav a:hover {
   border: none;
   padding: 15px 30px;
   font-size: 18px;
-  margin-left: 200px;
-
+ 
   transition: black 100ms ease-in-out;
+}
+.about-btn{
+  margin-left: 200px;
 }
 .btn-contact:hover {
   background-color: var(--secondary-color);
