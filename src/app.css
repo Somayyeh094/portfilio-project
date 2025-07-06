@@ -1,90 +1,91 @@
-:root{
-  --primary-color:#F9F7FE;
-  --secondary-color:#6C63FF;
-  --title-font:"Playfair", serif; 
-  --text-font:"Poppins", serif;
+:root {
+  --primary-color: #f9f7fe;
+  --secondary-color: #6c63ff;
+  --title-font: "Playfair", serif;
+  --text-font: "Poppins", serif;
 }
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--title-font);
 }
-body{
+body {
   font-family: var(--text-font);
 }
-nav .links a{
+nav .links a {
   color: #272142;
   margin-left: 25px;
 }
-nav .links .active{
+nav .links .active {
   color: var(--secondary-color);
 }
-nav a:hover{
+nav a:hover {
   color: var(--secondary-color);
 }
-.hero{
+.hero {
   background-color: var(--primary-color);
   text-align: center;
   padding: 100px 20px;
 }
-.content{
+.content {
   padding: 80px 20px;
 }
-.hero h2{
+.hero h2 {
   font-size: 36px;
-  color:#272142;
+  color: #272142;
 }
- .hero h1{
- font-weight: bold;
- font-size: 96px;
+.hero h1 {
+  font-weight: bold;
+  font-size: 96px;
 }
 
-.hero p{
+.hero p {
   font-size: 24px;
 }
-.content h3{
-margin-top: 50px;
+.content h3 {
+  margin-top: 50px;
 }
 
-.btn-contact{
+.btn-contact {
   background-color: var(--secondary-color);
   color: white;
   border-radius: 4px;
   border: none;
-  padding:15px 30px ;
+  padding: 15px 30px;
   font-size: 18px;
   margin-left: 200px;
 
-  
-transition:black 100ms ease-in-out;
+  transition: black 100ms ease-in-out;
 }
-.btn-contact:hover{
+.btn-contact:hover {
   background-color: var(--secondary-color);
 }
 
-.btn-more-info{
-  
-  color:var(--secondary-color);
+.btn-more-info {
+  color: var(--secondary-color);
   border-radius: 4px;
-  border:1px solid var(--secondary-color);
-  padding:15px 30px ;
+  border: 1px solid var(--secondary-color);
+  padding: 15px 30px;
   font-size: 18px;
 }
-.btn-more-info:hover{
-  border:1px solid var(--secondary-color);
+.btn-more-info:hover {
+  border: 1px solid var(--secondary-color);
 }
-.project-content{
+.project-content {
   padding: 110px 20px;
-
 }
 
-.myself-description{
+.myself-description {
   font-family: "Nunito", sans-serif;
   text-align: justify;
-  line-height:2.5 ;
+  line-height: 2.5;
   margin-top: 20px;
-  
 }
-footer .contact-box{
-  background-color: var(--primary-color) ;
+footer .contact-box {
+  background-color: var(--primary-color);
   margin: 50px 20px 30px 20px;
   padding: 40px;
   border-radius: 10px;
@@ -93,53 +94,56 @@ footer .contact-box-btn {
   text-align: right;
   margin-top: 20px;
 }
-footer .contact-box-text{
+footer .contact-box-text {
   margin-top: 20px;
 }
-footer .social-media-email a{
+footer .social-media-email a {
   color: #272142;
   font-size: 24px;
 }
-footer .social-media-email a:hover{
+footer .social-media-email a:hover {
   color: var(--secondary-color);
 }
-footer .social-media-links a{
+footer .social-media-links a {
   color: var(--secondary-color);
   margin-left: 25px;
-  text-decoration:none ;
-  background-color:  var(--primary-color);
+  text-decoration: none;
+  background-color: var(--primary-color);
   padding: 15px 19px;
- border-radius: 50%;
+  border-radius: 50%;
   font-size: 24px;
 }
-footer .social-media-links a:hover{
+footer .social-media-links a:hover {
   color: var(--primary-color);
 
-  background-color:  var(--secondary-color);
-
+  background-color: var(--secondary-color);
 }
 
-.projects img{
+.projects img {
   margin: 0 auto;
   display: block;
   border: 1px solid gainsboro;
 }
 
-.grid{
+.grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   margin-top: 40px;
 }
-.projects-description{
+.projects-description {
   margin: 80px 10px 20px 10px;
 }
-.web-built{
- background: linear-gradient(0deg, rgb(247, 247, 247,.5) 23.8%, rgb(252, 221, 221,.3) 92%);
- padding: 20px 10px;
- border-radius: 20px;
+.web-built {
+  background: linear-gradient(
+    0deg,
+    rgb(247, 247, 247, 0.5) 23.8%,
+    rgb(252, 221, 221, 0.3) 92%
+  );
+  padding: 20px 10px;
+  border-radius: 20px;
 }
-@media(max-width:900px){
-  nav .links a{
+@media (max-width: 900px) {
+  nav .links a {
     font-size: 14px;
     margin-left: 6px;
   }
@@ -147,41 +151,49 @@ footer .social-media-links a:hover{
     padding: 0px;
     text-align: center;
   }
-  .hero{
+  .hero {
     padding: 80px 20px;
   }
-.hero h1, .content h1{
-  font-size: 44px;
-}
-
-.content{
-  text-align: center;
-}
-.content img{
-  margin-top: 30px;
-}
-footer .social-media a{
-  font-size: 14px;
-}
-footer .social-media p, p a{
-  font-size: 12px;
-}
-footer .social-media p a{
-  font-size: 12px;
-}
-
-
-footer .contact-box{
-  text-align: center;
-  padding-top: 20px;
-  margin-top: 20px;
-}
-footer .contact-box-btn{
-  text-align: center;
-}
-}
+  .hero h1,
+  .content h1 {
+    font-size: 44px;
+  }
+ 
+  .content {
+    text-align: center;
+  }
+  .content img {
+    margin-top: 30px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .projects-description{
+    margin: 20px 10px 20px 10px;
+  }
+  .btn-contact {
+    margin: 0;
+  }
 
 
 
+  footer .social-media a {
+    font-size: 14px;
+  }
+  footer .social-media p,
+  p a {
+    font-size: 12px;
+  }
+  footer .social-media p a {
+    font-size: 12px;
+  }
 
-
+  footer .contact-box {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  footer .contact-box-btn {
+    text-align: center;
+  }
+}
