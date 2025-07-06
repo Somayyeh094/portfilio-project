@@ -32,15 +32,18 @@ nav a:hover{
   font-size: 36px;
   color:#272142;
 }
- h1{
+ .hero h1{
  font-weight: bold;
  font-size: 96px;
 }
 
 .hero p{
   font-size: 24px;
-
 }
+.content h3{
+margin-top: 50px;
+}
+
 .btn-contact{
   background-color: var(--secondary-color);
   color: white;
@@ -48,6 +51,8 @@ nav a:hover{
   border: none;
   padding:15px 30px ;
   font-size: 18px;
+  margin-left: 200px;
+
   
 transition:black 100ms ease-in-out;
 }
@@ -69,6 +74,14 @@ transition:black 100ms ease-in-out;
 .project-content{
   padding: 110px 20px;
 
+}
+
+.myself-description{
+  font-family: "Nunito", sans-serif;
+  text-align: justify;
+  line-height:2.5 ;
+  margin-top: 20px;
+  
 }
 footer .contact-box{
   background-color: var(--primary-color) ;
@@ -105,6 +118,26 @@ footer .social-media-links a:hover{
   background-color:  var(--secondary-color);
 
 }
+
+.projects img{
+  margin: 0 auto;
+  display: block;
+  border: 1px solid gainsboro;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 40px;
+}
+.projects-description{
+  margin: 80px 10px 20px 10px;
+}
+.web-built{
+ background: linear-gradient(0deg, rgb(247, 247, 247,.5) 23.8%, rgb(252, 221, 221,.3) 92%);
+ padding: 20px 10px;
+ border-radius: 20px;
+}
 @media(max-width:900px){
   nav .links a{
     font-size: 14px;
@@ -120,6 +153,7 @@ footer .social-media-links a:hover{
 .hero h1, .content h1{
   font-size: 44px;
 }
+
 .content{
   text-align: center;
 }
