@@ -56,16 +56,16 @@ nav a:hover {
   border: none;
   padding: 15px 30px;
   font-size: 18px;
- 
+
   transition: black 100ms ease-in-out;
 }
-.bio{
-  margin:50px 200px;
+.bio {
+  margin: 50px 20%;
   font-family: "Nunito", sans-serif;
   text-align: justify;
   line-height: 2.5;
 }
-.about-btn{
+.about-btn {
   margin-left: 200px;
 }
 .btn-contact:hover {
@@ -93,10 +93,10 @@ nav a:hover {
   margin-top: 20px;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
-.more-less{
+.more-less {
   border: none;
   background: transparent;
 }
@@ -158,6 +158,11 @@ footer .social-media-links a:hover {
   padding: 20px 10px;
   border-radius: 20px;
 }
+@media (max-width: 1280px) {
+  .bio {
+    margin: 50px 10%;
+  }
+}
 @media (max-width: 900px) {
   nav .links a {
     font-size: 14px;
@@ -174,7 +179,7 @@ footer .social-media-links a:hover {
   .content h1 {
     font-size: 44px;
   }
- 
+
   .content {
     text-align: center;
   }
@@ -184,14 +189,17 @@ footer .social-media-links a:hover {
   .grid {
     grid-template-columns: 1fr;
   }
-  .projects-description{
+  .projects-description {
     margin: 20px 10px 20px 10px;
   }
   .btn-contact {
     margin: 0;
   }
+  .bio {
+    margin: 15px;
 
-
+    font-size: 20px;
+  }
 
   footer .social-media a {
     font-size: 14px;

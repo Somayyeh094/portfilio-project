@@ -1,7 +1,7 @@
 function read() {
   if (text.classList.contains("hidden")) {
     text.classList.remove("hidden");
-    button.innerHTML = "Less...";
+    button.innerHTML = "Read less...";
   } else {
     text.classList.add("hidden");
     button.innerHTML = "Read more...";
