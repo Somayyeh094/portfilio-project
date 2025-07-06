@@ -45,9 +45,9 @@ nav a:hover {
 .hero p {
   font-size: 24px;
 }
-.content h3 {
+/* .content h3 {
   margin-top: 50px;
-}
+} */
 
 .btn-contact {
   background-color: var(--secondary-color);
@@ -58,6 +58,12 @@ nav a:hover {
   font-size: 18px;
  
   transition: black 100ms ease-in-out;
+}
+.bio{
+  margin:50px 200px;
+  font-family: "Nunito", sans-serif;
+  text-align: justify;
+  line-height: 2.5;
 }
 .about-btn{
   margin-left: 200px;
@@ -85,6 +91,14 @@ nav a:hover {
   text-align: justify;
   line-height: 2.5;
   margin-top: 20px;
+}
+
+.hidden{
+  display: none;
+}
+.more-less{
+  border: none;
+  background: transparent;
 }
 footer .contact-box {
   background-color: var(--primary-color);
