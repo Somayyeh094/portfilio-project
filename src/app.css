@@ -85,7 +85,9 @@ nav a:hover {
 .project-content {
   padding: 110px 20px;
 }
-
+.my-description{
+  margin-top: 100px;
+}
 .myself-description {
   font-family: "Nunito", sans-serif;
   text-align: justify;
@@ -158,12 +160,34 @@ footer .social-media-links a:hover {
   padding: 20px 10px;
   border-radius: 20px;
 }
-.bg-info{
-  background-color: var( --secondary-color)!important;
+.icon-grid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills-headig{
+margin: 100px 0 50px 0;
+background: var(--primary-color);
+padding: 20px 0;
+border-radius: 20px;
 }
 @media (max-width: 1280px) {
   .bio {
     margin: 50px 10%;
+  }
+  .btn-contact {
+    margin: 0;
+  }
+  .my-description{
+    margin-top: 0;
+  }
+  .my-description h3{
+    font-size: 20px;
+    font-weight: bold;
   }
 }
 @media (max-width: 900px) {
@@ -202,6 +226,13 @@ footer .social-media-links a:hover {
     margin: 15px;
 
     font-size: 20px;
+  }
+  .skills-headig{
+    margin: 0;
+  }
+  .my-description{
+    margin-top:10px;
+    line-height: 1;
   }
 
   footer .social-media a {
